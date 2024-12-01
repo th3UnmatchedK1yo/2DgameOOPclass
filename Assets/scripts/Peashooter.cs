@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class Peashooter : MonoBehaviour
 {
+    private Rigidbody2D rb;
+    private Animator anim;
+    
+
+
     //shoot
     public bool isShootable = false;
     public GameObject bullet;
