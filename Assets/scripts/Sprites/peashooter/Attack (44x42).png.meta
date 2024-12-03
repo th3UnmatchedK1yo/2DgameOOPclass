@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 751185399b9436f4491e4ab568f6a26d
+guid: 4bb0b3aa094517e4b91fb87de212ee30
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 41
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,12 +110,117 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Run (30x38)_0
+      name: Attack (44x42)_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 2
-        width: 26
+        x: 14
+        y: 0
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02604913645c995499e1ec4ccc321e4e
+      internalID: -1539023225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack (44x42)_1
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 0
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e795372f9c367ba439dc7b589398e0df
+      internalID: -716979703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack (44x42)_2
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 0
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d58857e1f5aa4045a297680a03b2c85
+      internalID: 1334254968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack (44x42)_3
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 0
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e5ac8d5353ead41acf9ae58dc6b0ee
+      internalID: 2092875546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack (44x42)_4
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf5cedfe8d1f79c4e96e0ddcd7f9689b
+      internalID: 1778365852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack (44x42)_5
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -124,20 +229,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 722fcc06dfa42e94ab8626696ce2ddda
-      internalID: -834816990
+      spriteID: b198ac0e2d4aa8f4e96fd6fdb2fce9fb
+      internalID: -1883601696
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run (30x38)_1
+      name: Attack (44x42)_6
       rect:
         serializedVersion: 2
-        x: 33
-        y: 4
-        width: 25
-        height: 33
+        x: 268
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,40 +250,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c094e73a0e0fafe4f8300e437e14d029
-      internalID: 748181376
+      spriteID: 90e0d7751574fef47aaf7a2054f558ea
+      internalID: 961511314
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run (30x38)_2
+      name: Attack (44x42)_7
       rect:
         serializedVersion: 2
-        x: 63
-        y: 4
-        width: 25
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6d37241cb6f1e2746bc16c0a6d0a371e
-      internalID: 1040675597
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run (30x38)_3
-      rect:
-        serializedVersion: 2
-        x: 92
-        y: 1
-        width: 26
+        x: 317
+        y: 0
+        width: 28
         height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -187,134 +271,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3682f4fb42b0a0a4e9967c7962726928
-      internalID: -2049330653
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run (30x38)_4
-      rect:
-        serializedVersion: 2
-        x: 120
-        y: 0
-        width: 29
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a2d258e1ab210bb48b8ca22d43b13891
-      internalID: 419984436
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run (30x38)_5
-      rect:
-        serializedVersion: 2
-        x: 150
-        y: 0
-        width: 29
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0e19dd86c0c9bf74fb7c1c3740af0869
-      internalID: -2131640221
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run (30x38)_6
-      rect:
-        serializedVersion: 2
-        x: 180
-        y: 2
-        width: 29
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 75a432e2b6134ab4c909f82b45b8f13e
-      internalID: -1267605192
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run (30x38)_7
-      rect:
-        serializedVersion: 2
-        x: 210
-        y: 1
-        width: 89
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 68d338ae13c3c564391c4ef5b408c3d0
-      internalID: -1201106645
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run (30x38)_8
-      rect:
-        serializedVersion: 2
-        x: 300
-        y: 0
-        width: 29
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 94cb9aa51bb51654ea3cde1a7e2517a0
-      internalID: -2146099275
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Run (30x38)_9
-      rect:
-        serializedVersion: 2
-        x: 330
-        y: 0
-        width: 29
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 51258bd2af4167f43aa9912fb6f778c9
-      internalID: 165891511
+      spriteID: 281f74f76cd182346bdc43d554ef531b
+      internalID: 187381271
       vertices: []
       indices: 
       edges: []
@@ -330,16 +288,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Run (30x38)_0: -834816990
-      Run (30x38)_1: 748181376
-      Run (30x38)_2: 1040675597
-      Run (30x38)_3: -2049330653
-      Run (30x38)_4: 419984436
-      Run (30x38)_5: -2131640221
-      Run (30x38)_6: -1267605192
-      Run (30x38)_7: -1201106645
-      Run (30x38)_8: -2146099275
-      Run (30x38)_9: 165891511
+      Attack (44x42)_0: -1539023225
+      Attack (44x42)_1: -716979703
+      Attack (44x42)_2: 1334254968
+      Attack (44x42)_3: 2092875546
+      Attack (44x42)_4: 1778365852
+      Attack (44x42)_5: -1883601696
+      Attack (44x42)_6: 961511314
+      Attack (44x42)_7: 187381271
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
