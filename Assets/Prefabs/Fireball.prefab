@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6265076818629501762}
   - component: {fileID: -6856242765539490468}
   m_Layer: 0
-  m_Name: bullet
+  m_Name: Fireball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -159,7 +159,7 @@ Animator:
   m_GameObject: {fileID: 7885139913535223886}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4d72d84f8e15f5c4db50ecdd1af817ed, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
