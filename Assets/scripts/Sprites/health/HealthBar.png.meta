@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 751185399b9436f4491e4ab568f6a26d
+guid: 13cd2d02fe0400f4184be7b712faaf8e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 31
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Run (30x38)_0
+      name: HealthBar_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 2
-        width: 26
-        height: 32
+        x: 5
+        y: 11
+        width: 112
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 722fcc06dfa42e94ab8626696ce2ddda
-      internalID: -834816990
+      spriteID: a9512d3e47b06bb499d4dbfcd592fd5f
+      internalID: -2136396202
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run (30x38)_1
+      name: HealthBar_1
       rect:
         serializedVersion: 2
-        x: 33
-        y: 4
-        width: 25
-        height: 33
+        x: 127
+        y: 11
+        width: 113
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c094e73a0e0fafe4f8300e437e14d029
-      internalID: 748181376
+      spriteID: 906f614051264a145a44d90f537822b3
+      internalID: 1071190708
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run (30x38)_2
+      name: HealthBar_2
       rect:
         serializedVersion: 2
-        x: 63
-        y: 4
-        width: 25
-        height: 33
+        x: 250
+        y: 11
+        width: 112
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d37241cb6f1e2746bc16c0a6d0a371e
-      internalID: 1040675597
+      spriteID: ec2112fad4cf7a84b9edefb0252ba239
+      internalID: -867067450
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run (30x38)_3
+      name: HealthBar_3
       rect:
         serializedVersion: 2
-        x: 92
-        y: 1
-        width: 26
-        height: 34
+        x: 372
+        y: 11
+        width: 113
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3682f4fb42b0a0a4e9967c7962726928
-      internalID: -2049330653
+      spriteID: b85cb2fa07d614944bd14800b2663dea
+      internalID: 1909884848
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run (30x38)_4
+      name: HealthBar_4
       rect:
         serializedVersion: 2
-        x: 120
-        y: 0
-        width: 29
-        height: 30
+        x: 495
+        y: 11
+        width: 112
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,20 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2d258e1ab210bb48b8ca22d43b13891
-      internalID: 419984436
+      spriteID: 9c68119b685449f488942962d0ebcc95
+      internalID: -377242978
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run (30x38)_5
+      name: HealthBar_5
       rect:
         serializedVersion: 2
-        x: 150
-        y: 0
-        width: 29
-        height: 30
+        x: 617
+        y: 11
+        width: 113
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,20 +229,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e19dd86c0c9bf74fb7c1c3740af0869
-      internalID: -2131640221
+      spriteID: 29bf1d09fce4da241b63b6e3b653b29f
+      internalID: -961759877
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run (30x38)_6
+      name: HealthBar_6
       rect:
         serializedVersion: 2
-        x: 180
-        y: 2
-        width: 29
-        height: 32
+        x: 740
+        y: 11
+        width: 112
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,20 +250,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75a432e2b6134ab4c909f82b45b8f13e
-      internalID: -1267605192
+      spriteID: cef5c48e339fd064c83d636a10f8be31
+      internalID: 1090634178
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run (30x38)_7
+      name: HealthBar_7
       rect:
         serializedVersion: 2
-        x: 210
-        y: 1
-        width: 89
-        height: 36
+        x: 862
+        y: 11
+        width: 113
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,20 +271,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68d338ae13c3c564391c4ef5b408c3d0
-      internalID: -1201106645
+      spriteID: 9e6ba0fb468b90b439244cbe7f59587b
+      internalID: -1403419807
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run (30x38)_8
+      name: HealthBar_8
       rect:
         serializedVersion: 2
-        x: 300
-        y: 0
-        width: 29
-        height: 30
+        x: 985
+        y: 11
+        width: 112
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,20 +292,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94cb9aa51bb51654ea3cde1a7e2517a0
-      internalID: -2146099275
+      spriteID: 3a16eb2bee7c7254ba7cfb763912771a
+      internalID: 476982197
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Run (30x38)_9
+      name: HealthBar_9
       rect:
         serializedVersion: 2
-        x: 330
-        y: 0
-        width: 29
-        height: 30
+        x: 1107
+        y: 11
+        width: 113
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,8 +313,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51258bd2af4167f43aa9912fb6f778c9
-      internalID: 165891511
+      spriteID: 1eb48dfa84dc6804da85de960cfb03a2
+      internalID: -1936959204
       vertices: []
       indices: 
       edges: []
@@ -330,16 +330,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Run (30x38)_0: -834816990
-      Run (30x38)_1: 748181376
-      Run (30x38)_2: 1040675597
-      Run (30x38)_3: -2049330653
-      Run (30x38)_4: 419984436
-      Run (30x38)_5: -2131640221
-      Run (30x38)_6: -1267605192
-      Run (30x38)_7: -1201106645
-      Run (30x38)_8: -2146099275
-      Run (30x38)_9: 165891511
+      HealthBar_0: -2136396202
+      HealthBar_1: 1071190708
+      HealthBar_2: -867067450
+      HealthBar_3: 1909884848
+      HealthBar_4: -377242978
+      HealthBar_5: -961759877
+      HealthBar_6: 1090634178
+      HealthBar_7: -1403419807
+      HealthBar_8: 476982197
+      HealthBar_9: -1936959204
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
