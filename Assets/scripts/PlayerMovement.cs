@@ -44,7 +44,7 @@ public class PlayerMovement : MonoBehaviour
     float wallJumpDirection;
     float wallJumpTime = 0.5f;
     float wallJumpTimer;
-    public Vector2 wallJumpPower = new Vector2(5f, 10f);
+    public Vector2 wallJumpPower = new Vector2(5f, 7f);
 
     void Update()
     {
