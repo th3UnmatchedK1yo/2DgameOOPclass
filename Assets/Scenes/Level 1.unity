@@ -6717,9 +6717,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 637d018a4bb6e2644b607395d09c6f7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingHealth: 3
-  iFramesDuration: 0
-  numberOfFlashes: 0
+  startingHealth: 1
   components: []
 --- !u!1 &1687240496
 GameObject:
@@ -6861,11 +6859,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4994440498004565445, guid: e920c0f226221e34594a9c6aed86fe31, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1048.2
+      value: 1049.6
       objectReference: {fileID: 0}
     - target: {fileID: 4994440498004565445, guid: e920c0f226221e34594a9c6aed86fe31, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 522.4
+      value: 507.1
       objectReference: {fileID: 0}
     - target: {fileID: 4994440498004565445, guid: e920c0f226221e34594a9c6aed86fe31, type: 3}
       propertyPath: m_LocalPosition.z
