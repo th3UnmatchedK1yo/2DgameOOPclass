@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 6962856399648279032}
   - component: {fileID: 1392461256968417502}
   - component: {fileID: 5843789943172273327}
+  - component: {fileID: 6030858114932354408}
   - component: {fileID: 3796246244852989454}
   m_Layer: 6
   m_Name: PinkMan
@@ -299,8 +300,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   wallSlideSpeed: 2
-  jumpSound: {fileID: 8300000, guid: 92056826b748e3e4a8e8bff2ea6b1f2e, type: 3}
-  wallSlideSound: {fileID: 8300000, guid: ada7807c6504dbb45914964d7e6927ab, type: 3}
   wallJumpPower: {x: 5, y: 10}
 --- !u!95 &6962856399648279032
 Animator:
@@ -335,7 +334,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fbe1fcc082a90e45bae955eb9cb5c58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collectSound: {fileID: 8300000, guid: b60708888e53f8a40be7dbcbee631796, type: 3}
 --- !u!58 &5843789943172273327
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -371,6 +369,18 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.2698165
+--- !u!114 &6030858114932354408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4482050215641117598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aff861f6a56e1b94b9ace4659eb36caf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &3796246244852989454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -384,7 +394,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingHealth: 1
-  deathSound: {fileID: 8300000, guid: 773b8e95213964842a0acf675e755dc1, type: 3}
   components: []
 --- !u!1 &6137777670327963026
 GameObject:
