@@ -5717,6 +5717,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: UICanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 1025682532347852732, guid: 5fdb79085af62c84c9f2b6b89249ccba, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3683769940563705068, guid: 5fdb79085af62c84c9f2b6b89249ccba, type: 3}
       propertyPath: playerHealth
       value: 
