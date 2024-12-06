@@ -938,10 +938,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1392461256968417502, guid: 3abaae61f4ef5cd47a5687f1a2587bb2, type: 3}
-      propertyPath: collectSound
-      value: 
-      objectReference: {fileID: 8300000, guid: b60708888e53f8a40be7dbcbee631796, type: 3}
     - target: {fileID: 3628623607304861488, guid: 3abaae61f4ef5cd47a5687f1a2587bb2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 985
@@ -982,24 +978,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3796246244852989454, guid: 3abaae61f4ef5cd47a5687f1a2587bb2, type: 3}
-      propertyPath: deathSound
-      value: 
-      objectReference: {fileID: 8300000, guid: 773b8e95213964842a0acf675e755dc1, type: 3}
     - target: {fileID: 4482050215641117598, guid: 3abaae61f4ef5cd47a5687f1a2587bb2, type: 3}
       propertyPath: m_Name
       value: PinkMan
       objectReference: {fileID: 0}
-    - target: {fileID: 4637607107864776529, guid: 3abaae61f4ef5cd47a5687f1a2587bb2, type: 3}
-      propertyPath: jumpSound
-      value: 
-      objectReference: {fileID: 8300000, guid: 92056826b748e3e4a8e8bff2ea6b1f2e, type: 3}
-    - target: {fileID: 4637607107864776529, guid: 3abaae61f4ef5cd47a5687f1a2587bb2, type: 3}
-      propertyPath: wallSlideSound
-      value: 
-      objectReference: {fileID: 8300000, guid: ada7807c6504dbb45914964d7e6927ab, type: 3}
-    m_RemovedComponents:
-    - {fileID: 6030858114932354408, guid: 3abaae61f4ef5cd47a5687f1a2587bb2, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
