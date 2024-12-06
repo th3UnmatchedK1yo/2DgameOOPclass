@@ -8,6 +8,11 @@ public class Health : MonoBehaviour
     private Animator anim;
     private bool dead;
 
+    [Header("Death Sound")]
+    [SerializeField] private AudioClip deathSound;
+
+    
+
     [Header("Components")]
     [SerializeField] private Behaviour[] components;
 
@@ -47,7 +52,7 @@ public class Health : MonoBehaviour
             movement.enabled = false;
 
         dead = true;
-
+        SoundManager.instance.PlaySound(deathSound);
         // Call Game Over method or transition to the next scene
         
     }
