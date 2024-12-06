@@ -1,25 +1,33 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class FinishPoint : MonoBehaviour
 {
-    [SerializeField] bool goNextLevel;
-    [SerializeField] string LevelName;
+    [SerializeField] private int requiredFruits = 100; // The number of fruits required to finish the level
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            if (goNextLevel)
+            // Check if the player has collected enough fruits
+            if (GameController.instance.progressAmount >= requiredFruits)
             {
-                //go to next level
+                // Level is complete, move to the next level
+                Debug.Log("Level complete, moving to next scene!");
+
+                // Disable the collider to prevent re-triggering the finish point
+                GetComponent<Collider2D>().enabled = false;
+
+                // Move to the next level
                 SceneController.instance.NextLevel();
             }
             else
             {
-                SceneController.instance.LoadScene(LevelName);
+                // Player hasn't collected enough fruits
+                Debug.Log("Collect more fruits to complete the level!");
             }
-
         }
     }
 }
