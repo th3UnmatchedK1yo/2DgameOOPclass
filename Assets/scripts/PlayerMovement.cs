@@ -85,7 +85,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 //Hold down jump button = full height
                 rb.velocity = new Vector2(rb.velocity.x, jumpPower);
-                jumpsRemaining--; 
+                jumpsRemaining--;
                 SoundManager.instance.PlaySound(jumpSound); // jump SFX
                 animator.SetTrigger("jump");
             }
@@ -221,7 +221,7 @@ public class PlayerMovement : MonoBehaviour
     private void OnDrawGizmosSelected()
     {
         //Ground check visual
-        
+
         Gizmos.color = Color.white;
         Gizmos.DrawWireCube(groundCheckPos.position, groundCheckSize);
         Gizmos.color = Color.blue;
