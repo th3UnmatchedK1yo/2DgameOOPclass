@@ -1,6 +1,12 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Prefabs/GameController.prefab.meta
 guid: b4777247e0330324b966ad143044d44b
 PrefabImporter:
+========
+guid: e708252ab5ab9cd4caeafa38e3d3ba4d
+folderAsset: yes
+DefaultImporter:
+>>>>>>>> 9d6e8801d4b3f7d577b4ac6842770b8db5ec78c4:Assets/Audio.meta
   externalObjects: {}
   userData: 
   assetBundleName: 
