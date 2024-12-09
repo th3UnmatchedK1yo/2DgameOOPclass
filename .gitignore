@@ -70,3 +70,6 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+Assets/Sprites/MaskDude.meta
+Assets/scripts/Sprites/MaskDude.meta
+Assets/scripts/Sprites/MaskDude/Double Jump (32x32).png.meta

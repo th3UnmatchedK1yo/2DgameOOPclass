@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - Checkpoint
+  - Audio
   layers:
   - Default
   - TransparentFX

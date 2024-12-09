@@ -10,7 +10,10 @@ public class Fruits : MonoBehaviour, Item
     public int worth = 5;
 
     public void Collect()
+    
+    
     {
+        Debug.Log("Fruit collected! Worth: " + worth);
         OnFruitCollect.Invoke(worth);
         Destroy(gameObject);
     }
