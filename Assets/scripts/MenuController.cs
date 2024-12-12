@@ -17,7 +17,10 @@ public class MenuController : MonoBehaviour
 
     public void ExitGame()
     {
+        UnityEditor.EditorApplication.isPlaying = false;
         Application.Quit();
     }
 
 }
+
+
