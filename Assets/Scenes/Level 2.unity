@@ -1853,6 +1853,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4144309463577864262, guid: b4777247e0330324b966ad143044d44b, type: 3}
+      propertyPath: gameOverScreen
+      value: 
+      objectReference: {fileID: 2082224475}
+    - target: {fileID: 4144309463577864262, guid: b4777247e0330324b966ad143044d44b, type: 3}
       propertyPath: progressSlider
       value: 
       objectReference: {fileID: 82208520}
@@ -2087,14 +2091,6 @@ PrefabInstance:
     - target: {fileID: 1755832195419212581, guid: 8a4afcbcc942e4240aff000d1bc2caf8, type: 3}
       propertyPath: m_Name
       value: UI
-      objectReference: {fileID: 0}
-    - target: {fileID: 3381566875143012063, guid: 8a4afcbcc942e4240aff000d1bc2caf8, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 883
-      objectReference: {fileID: 0}
-    - target: {fileID: 3381566875143012063, guid: 8a4afcbcc942e4240aff000d1bc2caf8, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 105
       objectReference: {fileID: 0}
     - target: {fileID: 6297369503031712580, guid: 8a4afcbcc942e4240aff000d1bc2caf8, type: 3}
       propertyPath: m_AnchorMax.x
@@ -6282,6 +6278,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 89e0cb4b7dfde25429ea3bf9cecb6943, type: 3}
+--- !u!1 &2082224475 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 323796958808819518, guid: 8a4afcbcc942e4240aff000d1bc2caf8, type: 3}
+  m_PrefabInstance: {fileID: 1541919662}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2088275179
 GameObject:
   m_ObjectHideFlags: 0
